@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PiPifier-Style PiP — Outside Player, Middle Left
 // @namespace    leviarbalest.pipifier.outside-player-button
-// @version      1.0
+// @version      1.1
 // @description  A movable-overlay-style PiP button positioned just outside the active video at its middle-left edge. It never becomes a child of the player, avoiding YouTube/Tube Cleaner touch overlays.
 // @match        *://*/*
 // @run-at       document-idle
@@ -15,7 +15,7 @@
   const STYLE_ID = 'pipifier-outside-player-style';
   const HIDE_AFTER_MS = 3000;
   const OUTSIDE_GAP_PX = 8;
-  const BUTTON_SIZE_PX = 52;
+  const BUTTON_SIZE_PX = 34;
 
   let activeVideo = null;
   let button = null;
